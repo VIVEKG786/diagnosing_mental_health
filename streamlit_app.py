@@ -8,7 +8,7 @@ import numpy as np
 @st.cache_resource
 def model_use(option):
     if option == 'Logistic Regression':
-        with open('models\logistic_regreesion.pkl','rb') as file:
+        with open('models/logistic_regreesion.pkl','rb') as file:
             model = pickle.load(file)
     elif option == 'Random Forest':
         with open('models\\random_forest.pkl','rb') as file:
