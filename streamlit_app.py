@@ -11,10 +11,10 @@ def model_use(option):
         with open('models/logistic_regreesion.pkl','rb') as file:
             model = pickle.load(file)
     elif option == 'Random Forest':
-        with open('models\\random_forest.pkl','rb') as file:
+        with open('models/random_forest.pkl','rb') as file:
             model = pickle.load(file)
     else:
-        model = keras.models.load_model('models\\nn_model.h5')
+        model = keras.models.load_model('models/nn_model.h5')
     return model
 
 with st.sidebar:
