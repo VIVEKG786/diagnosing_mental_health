@@ -226,6 +226,33 @@ with diagnosis:
                     st.markdown("- *[Manastha](https://www.manastha.com/)*")
                     st.markdown("- *[Vandrevala Foundation(Free)](https://www.vandrevalafoundation.com/free-counseling)*")
                     st.markdown("- *[Live Love Laugh Foundation](https://www.thelivelovelaughfoundation.org/find-help/helplines)*")
-                        
+
+# FAQs                        
 with faq:
-    pass
+    st.title('Frequently Asked Questions')
+    with st.expander('**What is the source of the dataset?**'):
+        st.markdown('''The dataset use is from the Harvard Dataverse. [Click link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5)
+                    to access''')
+        
+    with st.expander('**Whose data was collected?**'):
+        st.markdown('''The current data was collected from a private psychology clinic by the people at Harvard. 
+                    It dataset comprised 30 samples belonging to each category summing upto 120 patients.''')
+        
+    with st.expander('**Does it provide accurate diagnosis?**'):
+        st.markdown('''There is nothing like completely accurate prediction in machine learning. So, no. Although all the models have accuracy above 80%, 
+                    the diagnosis should not be considered completely trustworthy. If you, or someone you know is suffering from any mental disorder, 
+                    [seek help](https://www.thelivelovelaughfoundation.org/find-help/helplines)''')
+        
+    with st.expander('**Can we start medication based on the diagnosis?**'):
+        st.markdown('''This project is only for **learning purposes**. It does not claim trustworthiness of the result.
+                    Please consult a professional before starting medication.''')
+        
+    with st.expander('**Why only 3 models were used?**'):
+        st.markdown('''5 models were trained on the dataset. They were *Logistic Regression*, *Support Vector Classifier*,
+                    *K-Nearest Neighborhood*, *Random Forest Classifier*, and *Multilayer Perceptron*. Of all the 5 models, 
+                    *Logistic Regression*,*Random Forest Classifier*, and *Multilayer Perceptron* had the best accuracy and recall.
+                Therefore, only this 3 models were used for deployement.''')
+        
+    with st.expander('**Where can I get connected with the authors?**'):
+        st.markdown('''You can reach out to us at [Kathanshi Jain](https://www.linkedin.com/in/kathanshi-jain/)
+                    and [Utkarsh Sen](https://www.linkedin.com/in/utk-sen/)''')
