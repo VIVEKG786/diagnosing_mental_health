@@ -57,7 +57,7 @@ with about:
     st.markdown('Models used for the classification are:')
     with st.expander('Logistic Regression'):
         # Logistic Regression Explanation
-        st.image('images/sigmoid_function.png')
+        st.image('images/logistic.jpg')
         
         st.markdown('''Logistic regression is a statistical method that uses math to find the relationship between two data factors and predict the value of one 
                     factor based on the other. The model is similar to linear regression but instead of returning continous values, it returns descrete anf finite 
