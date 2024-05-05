@@ -130,7 +130,7 @@ with diagnosis:
         sadness = left_col.selectbox('How often do you feel sad?',['Seldom','Sometimes','Usually','Most-often'])
         euphoric = mid_col.selectbox('How often do you feel Excited?',['Seldom','Sometimes','Usually','Most-often'])
         exhausted = right_col.selectbox('How often do you feel exhausted?',['Seldom','Sometimes','Usually','Most-often'])
-        sleep_disorder = left_col.selectbox('Do you have trouble sleeping?',['Yes','No'])
+        sleep_disorder = left_col.selectbox('How often do you have trouble sleeping?',['Seldom','Sometimes','Usually','Most-often'])
         mood_swing = mid_col.selectbox('Do you often get mood swings?',['Yes','No'])
         suicidal_thoughts = right_col.selectbox('Do you have often get suicidal thoughts?',['Yes','No'])
         anorexia = left_col.selectbox('Does stress impact your eating habits?',['Yes','No'])
@@ -186,9 +186,9 @@ with diagnosis:
                                 Disorder and Bipolar Disorder.""")
                     st.markdown("[know more](https://en.wikipedia.org/wiki/Normality_(behavior)#:~:text=Normality%20is%20a%20behavior%20that,society%20(known%20as%20conformity).)")
                     st.markdown('**Seek professional help:**')
-                    st.markdown("- *[Manastha]*(https://www.manastha.com/)")
-                    st.markdown("- *[Vandrevala Foundation(Free)]* (https://www.vandrevalafoundation.com/free-counseling) ")
-                    st.markdown("- *[Live Love Laugh Foundation]* (https://www.thelivelovelaughfoundation.org/find-help/helplines)")
+                    st.markdown("- *[Manastha](https://www.manastha.com/)*")
+                    st.markdown("- *[Vandrevala Foundation(Free)](https://www.vandrevalafoundation.com/free-counseling)*")
+                    st.markdown("- *[Live Love Laugh Foundation](https://www.thelivelovelaughfoundation.org/find-help/helplines)*")
                 if pred == 1:
                     # Diagnosed Depressed
                     st.markdown("""Depression is a mental health disorder characterized by persistent feelings of sadness, hopelessness, 
@@ -231,27 +231,26 @@ with diagnosis:
 with faq:
     st.title('Frequently Asked Questions')
     with st.expander('**What is the source of the dataset?**'):
-        st.markdown('''The dataset use is from the Harvard Dataverse. [Click link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5)
+        st.markdown('''The dataset is used from the Harvard Dataverse. [Click link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0FNET5)
                     to access''')
         
     with st.expander('**Whose data was collected?**'):
-        st.markdown('''The current data was collected from a private psychology clinic by the people at Harvard. 
-                    It dataset comprised 30 samples belonging to each category summing upto 120 patients.''')
+        st.markdown('''The current data was collected from a private psychology clinic by the people of Harvard. 
+                    The dataset comprised 30 samples belonging to each category summing upto 120 patients.''')
         
     with st.expander('**Does it provide accurate diagnosis?**'):
         st.markdown('''There is nothing like completely accurate prediction in machine learning. So, no. Although all the models have accuracy above 80%, 
-                    the diagnosis should not be considered completely trustworthy. If you, or someone you know is suffering from any mental disorder, 
-                    [seek help](https://www.thelivelovelaughfoundation.org/find-help/helplines)''')
+                    the diagnosis should not be considered completely trustworthy. To get a better diagnosis, [click here](https://www.thelivelovelaughfoundation.org/find-help/helplines)''')
         
     with st.expander('**Can we start medication based on the diagnosis?**'):
         st.markdown('''This project is only for **learning purposes**. It does not claim trustworthiness of the result.
                     Please consult a professional before starting medication.''')
         
     with st.expander('**Why only 3 models were used?**'):
-        st.markdown('''5 models were trained on the dataset. They were *Logistic Regression*, *Support Vector Classifier*,
+        st.markdown('''5 models were trained on the dataset: *Logistic Regression*, *Support Vector Classifier*,
                     *K-Nearest Neighborhood*, *Random Forest Classifier*, and *Multilayer Perceptron*. Of all the 5 models, 
                     *Logistic Regression*,*Random Forest Classifier*, and *Multilayer Perceptron* had the best accuracy and recall.
-                Therefore, only this 3 models were used for deployement.''')
+                Therefore, only these 3 models were used for deployement.''')
         
     with st.expander('**Where can I get connected with the authors?**'):
         st.markdown('''You can reach out to us at [Kathanshi Jain](https://www.linkedin.com/in/kathanshi-jain/)
