@@ -40,7 +40,7 @@ with about:
     st.title('About Project')
     
     st.markdown('''The dataset comprised 30 samples for each of the **Normal**, **Mania Bipolar Disorder**, **Depressive Bipolar Disorder**, and **Major Depressive Disorder** 
-             categories summing up to **120 patiants**. The dataset contains the 17 essential symptoms psychiatrists use to diagnose the described disorders. 
+             categories summing up to **120 patients**. The dataset contains the 17 essential symptoms psychiatrists use to diagnose the described disorders. 
              The behavioral *symptoms considered* are the levels of patients *Sadness*, *Exhaustness*, *Euphoric*, *Sleep disorder*, *Mood swings*, *Suicidal thoughts*, *Anorexia*, 
              *Anxiety*, *Try-explaining*, *Nervous breakdown*, *Ignore & Move-on*, *Admitting mistakes*, *Overthinking*, *Aggressive response*, *Optimism*, *Sexual activity*, and *Concentration* in a 
              Comma Separated Value (CSV) format. The Normal category refer to the individuals using therapy time for specialized 
@@ -70,7 +70,7 @@ with about:
         st.markdown('**Accuracy**')
         st.markdown('Logistic regression performed with *85% accuracy*.')
         # Parameters
-        st.markdown('**Parameter**')
+        st.markdown('**Parameters**')
         st.markdown('***C(Inverse of learning rate):*** 20.69')
         st.markdown('***Rgularizer:*** L2')
         st.markdown('***Solver:*** liblinear')
@@ -86,7 +86,7 @@ with about:
         st.markdown('**Accuracy**')
         st.markdown('Random Forest performed with *93% accuracy*.')
         # Parameters
-        st.markdown('**Parameter**')
+        st.markdown('**Parameters**')
         st.markdown('***Max Depth:*** 4')
         st.markdown('***Minimum Sample Leaf:*** 2')
         
@@ -101,9 +101,9 @@ with about:
         st.markdown('Multilayer Perceptron performed with *87% accuracy*.')
         # Parameters
         st.markdown('**Parameter**')
-        st.markdown('***Number of hidden layers:*** 3')
-        st.markdown('***Function used in hidden layers:*** tanh')
-        st.markdown('***Drop out rate:*** 10%')
+        st.markdown('***Number Of Hidden Layers:*** 3')
+        st.markdown('***Function Used In Hidden Layers:*** tanh')
+        st.markdown('***Dropout Rate:*** 10%')
         st.markdown('***Output Function:*** Softmax')
     
     # How to use    
