@@ -3,7 +3,7 @@
 ## Contributions
 - [Kathanshi Jain](https://www.linkedin.com/in/kathanshi-jain/)
 - [Utkarsh Sen](https://www.linkedin.com/in/utk-sen/)
-## Model Link
+## Website Link
 [Diagnosing Mental Health](https://diagnosingmentalhealth.streamlit.app/)
 
 ## About
