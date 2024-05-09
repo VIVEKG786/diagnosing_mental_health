@@ -132,7 +132,7 @@ with diagnosis:
         exhausted = right_col.selectbox('How often do you feel exhausted?',['Seldom','Sometimes','Usually','Most-often'])
         sleep_disorder = left_col.selectbox('How often do you have trouble sleeping?',['Seldom','Sometimes','Usually','Most-often'])
         mood_swing = mid_col.selectbox('Do you often get mood swings?',['Yes','No'])
-        suicidal_thoughts = right_col.selectbox('Do you have often get suicidal thoughts?',['Yes','No'])
+        suicidal_thoughts = right_col.selectbox('Do you often get suicidal thoughts?',['Yes','No'])
         anorexia = left_col.selectbox('Does stress impact your eating habits?',['Yes','No'])
         respect = mid_col.selectbox('Do you often respect the people in authority?',['Yes','No'])
         explanation = right_col.selectbox('Do you often try to explain yourself?',['Yes','No'])
